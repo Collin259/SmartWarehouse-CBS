@@ -1,0 +1,55 @@
+{
+  "name": "demo_02_intersection",
+  "grid": {
+    "width": 11,
+    "height": 11
+  },
+  "obstacles": [],
+  "agents": [
+    {
+      "id": "A",
+      "start": [
+        5,
+        0
+      ],
+      "goal": [
+        5,
+        10
+      ]
+    },
+    {
+      "id": "B",
+      "start": [
+        5,
+        10
+      ],
+      "goal": [
+        5,
+        0
+      ]
+    },
+    {
+      "id": "C",
+      "start": [
+        0,
+        5
+      ],
+      "goal": [
+        10,
+        5
+      ]
+    },
+    {
+      "id": "D",
+      "start": [
+        10,
+        5
+      ],
+      "goal": [
+        0,
+        5
+      ]
+    }
+  ],
+  "max_time": 120
+}
